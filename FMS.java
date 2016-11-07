@@ -1,7 +1,7 @@
 // Main java file to be modified
-class fms
+class Fms
 {
-  fms()
+  Fms()
   {
   }
 }
