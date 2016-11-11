@@ -3,7 +3,7 @@ class Staff
 {
   Staff()
   {
-    //Change staff
+    
   }
 }
 
