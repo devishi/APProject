@@ -218,30 +218,6 @@ public class SimpleGui implements ActionListener
 	public void actionPerformed(ActionEvent event)
 	{
 		text.setText(nam[v%2]+"\'s turn");
-		if (d==1)
-		{	
-			Object btn=event.getSource();
-			for(int i=0;i<9;i++)
-			{	
-				if(a[i]==btn && getitnow[i]==0)
-				{
-					getitnow[i]=1;
-					a[i].setText(m[v%2]+"");
-					v++;
-					if(check()==1){
-						text.setText(nam[v%2]+" won");
-					}
-				}
-			}
-			int m=0;
-			for(int i=0;i<9;i++)
-				if(getitnow[i]==1) 
-					m++;
-			if(m==9)
-			{
-				text.setText("It is a tie");
-			}
-		}
 		else if (d==2)
 		{	
 			Object btn=event.getSource();
