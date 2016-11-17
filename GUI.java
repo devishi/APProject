@@ -7,7 +7,7 @@ public class SimpleGui implements ActionListener
 {
 	Random randomGenerator = new Random();
 	int tr = randomGenerator.nextInt(4);
-	public static int []getitnow={0,0,0,0,0,0,0,0,0};
+	public static int []getitnow={};
 	JPanel matrix=new JPanel();
 	private JButton button,b3,b0,b1,b2,b4,a[];
 	JFrame frame=new JFrame();
