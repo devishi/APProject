@@ -3,7 +3,7 @@ import java.awt.event.*;
 import java.awt.*;
 import java.util.Random;
 
-public class SimpleGui implements ActionListener
+public class Gui implements ActionListener
 {
 	Random randomGenerator = new Random();
 	int tr = randomGenerator.nextInt(4);
