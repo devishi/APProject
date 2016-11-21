@@ -344,7 +344,6 @@ public class Gui implements ActionListener
 			
 			if(check()==1 || q==9)
 			{
-				//System.out.println("jeet gaya bc");
 				timer.stop();
 			}
 		}
