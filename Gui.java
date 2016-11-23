@@ -315,7 +315,6 @@ public class Gui implements ActionListener
 		}  
 		nam[0]=u1.getText();
 		nam[1]=u2.getText();
-		//System.out.println(u1.getText()+u2.getText());	
 	}
 
 	public class TimerClass implements ActionListener
