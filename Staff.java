@@ -2,7 +2,7 @@ class Staff
 {
   Staff()
   {
-    //do
+   
   }
 }
 
