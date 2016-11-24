@@ -1,4 +1,4 @@
-class Staff
+public class Staff
 {
   Staff()
   {
