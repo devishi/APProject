@@ -285,7 +285,7 @@ public class Gui implements ActionListener
         labels.add(new JLabel("User 1", SwingConstants.RIGHT));
         if(f>5)
         {
-        	pr.setText("Enter correct User names");
+        	pr.setText("Enter correct names");
         	f-=5;
         }
        
