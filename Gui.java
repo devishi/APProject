@@ -35,6 +35,7 @@ public class Gui implements ActionListener
 	    public void actionPerformed(ActionEvent e)
 	    {
 	        mainScreen();
+		//change
 	    }
 		});
 		Font font=new Font("serif",Font.PLAIN,200);
