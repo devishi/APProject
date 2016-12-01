@@ -21,9 +21,8 @@ public class Gui implements ActionListener
 	public static void main(String[] args){
 		SimpleGui gui=new SimpleGui();
 		gui.go();
-	} 
-
-	public void go()
+	} /	
+/donepublic void go()
 	{
 		int gap=140;
 		JPanel panel=new JPanel(new GridLayout(gap,gap,gap,gap));
